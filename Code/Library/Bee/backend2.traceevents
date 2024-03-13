@@ -1,0 +1,296 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1710333012988240, "dur":37492, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710333013025749, "dur":76, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710333013025858, "dur":677, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710333013026643, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Game_Oracle(exe)/Oracle_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1710333013026945, "dur":134, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1710333013027615, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1710333013027918, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1710333013028272, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1710333013028499, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Game_Oracle(exe)/Oracle_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1710333013028817, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Game_Oracle(exe)/Oracle_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":0, "ts":1710333013028945, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Game_Oracle(exe)/Oracle_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1710333013029157, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Game_Oracle(exe)/Oracle.exe" }}
+,{ "pid":12345, "tid":0, "ts":1710333013029317, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1710333013029466, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1710333013026567, "dur":3029, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710333013029598, "dur":531750, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710333013561351, "dur":353, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710333013561705, "dur":209, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710333013562173, "dur":1997, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1710333013026781, "dur":2834, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710333013029621, "dur":5669, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710333013036220, "dur":285, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1710333013036509, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1710333013036661, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1710333013036963, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity-project\\Game_Oracle\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710333013037060, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity-project\\Game_Oracle\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710333013037207, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity-project\\Game_Oracle\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710333013037474, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity-project\\Game_Oracle\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710333013037703, "dur":484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity-project\\Game_Oracle\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710333013038190, "dur":516, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity-project\\Game_Oracle\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710333013038708, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity-project\\Game_Oracle\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710333013038829, "dur":377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity-project\\Game_Oracle\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710333013039282, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player67aea845-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1710333013036508, "dur":2959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1710333013039665, "dur":59, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710333013040212, "dur":506109, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1710333013551172, "dur":8132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1710333013551170, "dur":8139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/Oracle_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1710333013559348, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1710333013027513, "dur":2334, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710333013029851, "dur":159, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710333013030010, "dur":5452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710333013035463, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1710333013041468, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1710333013043507, "dur":6314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710333013049877, "dur":7716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710333013057638, "dur":6867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710333013064605, "dur":6583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710333013071307, "dur":22883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710333013094253, "dur":467308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710333013026960, "dur":2718, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710333013029685, "dur":686, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710333013030371, "dur":5098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710333013035470, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1710333013035651, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710333013044913, "dur":3339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1710333013048405, "dur":6621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710333013055117, "dur":7245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710333013062434, "dur":6293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710333013068793, "dur":6565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710333013075418, "dur":5252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710333013080722, "dur":6026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1710333013086764, "dur":474644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710333013027003, "dur":2688, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710333013029695, "dur":641, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710333013030337, "dur":4985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710333013035324, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1710333013035410, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710333013037566, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1710333013041272, "dur":9755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1710333013051172, "dur":8239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710333013059459, "dur":6221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710333013065753, "dur":6738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710333013072565, "dur":5159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710333013077862, "dur":72883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1710333013150762, "dur":410589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710333013027054, "dur":2648, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710333013029707, "dur":617, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710333013030324, "dur":5001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710333013035344, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1710333013035326, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1710333013035418, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710333013037529, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1710333013041760, "dur":13136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710333013054956, "dur":6362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710333013061428, "dur":6180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710333013067692, "dur":7057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710333013074849, "dur":5508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710333013080442, "dur":3865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1710333013084339, "dur":477001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710333013027164, "dur":2584, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710333013029755, "dur":757, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710333013030513, "dur":4803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710333013035318, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1710333013035405, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710333013039172, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1710333013041737, "dur":4834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710333013046668, "dur":7127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710333013053878, "dur":6757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710333013060692, "dur":6419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710333013067171, "dur":6964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710333013079717, "dur":108, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710333013074223, "dur":5745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710333013080392, "dur":6214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1710333013086619, "dur":474874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710333013027239, "dur":2557, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710333013029803, "dur":691, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710333013030494, "dur":4952, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710333013035489, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1710333013035447, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1710333013035654, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710333013043583, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1710333013046077, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710333013049805, "dur":7915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710333013057745, "dur":6765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710333013064602, "dur":5951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710333013070620, "dur":5531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710333013076218, "dur":4704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710333013080981, "dur":5667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1710333013086661, "dur":474759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710333013027569, "dur":2348, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710333013029918, "dur":5396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710333013035315, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1710333013035408, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710333013038584, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1710333013040714, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710333013040712, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710333013040770, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710333013041184, "dur":13391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710333013054646, "dur":6596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710333013061371, "dur":6249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710333013067677, "dur":7141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710333013074901, "dur":5488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710333013080579, "dur":5524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1710333013086120, "dur":475222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710333013027299, "dur":2513, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710333013029819, "dur":702, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710333013030521, "dur":4812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710333013035335, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1710333013035406, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710333013037804, "dur":2900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1710333013040818, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle.exe" }}
+,{ "pid":12345, "tid":9, "ts":1710333013042868, "dur":5967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710333013048946, "dur":6605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710333013055600, "dur":7273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710333013062932, "dur":6456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710333013069446, "dur":6091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710333013075605, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710333013080710, "dur":5503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1710333013086227, "dur":475321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710333013027457, "dur":2372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710333013029835, "dur":601, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710333013030437, "dur":4890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710333013035332, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1710333013035435, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710333013037558, "dur":3504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1710333013041722, "dur":13074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710333013054890, "dur":6787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710333013061740, "dur":6608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710333013068414, "dur":6437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710333013074919, "dur":5708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710333013080695, "dur":5234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1710333013085948, "dur":475405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710333013027631, "dur":2304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710333013029935, "dur":5514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710333013035450, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1710333013042634, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1710333013046321, "dur":3630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710333013050010, "dur":8512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710333013058556, "dur":6196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710333013064822, "dur":6092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710333013071000, "dur":6076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710333013077141, "dur":8742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1710333013085907, "dur":475430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710333013027719, "dur":2233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710333013029952, "dur":5463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710333013035415, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1710333013040775, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1710333013043053, "dur":5067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710333013048191, "dur":6610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710333013054851, "dur":6440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710333013061423, "dur":7050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710333013068563, "dur":6284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710333013080144, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710333013074916, "dur":5314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710333013080319, "dur":8222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1710333013088558, "dur":472822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710333013027879, "dur":2087, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710333013029966, "dur":5497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710333013035479, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1710333013035465, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1710333013035721, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710333013045617, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1710333013048561, "dur":5161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710333013053809, "dur":6820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710333013060655, "dur":6647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710333013067366, "dur":6716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710333013074144, "dur":6056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710333013080603, "dur":4134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1710333013084765, "dur":476791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710333013027981, "dur":1998, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710333013029979, "dur":5482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710333013035478, "dur":211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":14, "ts":1710333013035461, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1710333013035691, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710333013045283, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1710333013047424, "dur":7508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710333013055000, "dur":6589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710333013061687, "dur":6922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710333013068671, "dur":6293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710333013075050, "dur":5194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710333013080340, "dur":7621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1710333013087982, "dur":473390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710333013028158, "dur":1833, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710333013029991, "dur":5356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710333013035365, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":15, "ts":1710333013035348, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1710333013035427, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710333013038175, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1710333013041679, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1710333013043033, "dur":10029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710333013053212, "dur":6813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710333013060059, "dur":6536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710333013066668, "dur":7178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710333013079552, "dur":251, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710333013073929, "dur":6028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710333013080406, "dur":6328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1710333013086746, "dur":474649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710333013028207, "dur":1798, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710333013030006, "dur":5299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710333013035998, "dur":344, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1710333013036652, "dur":3919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1710333013041090, "dur":3282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710333013044431, "dur":9369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710333013053866, "dur":7336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710333013061238, "dur":6080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710333013067403, "dur":6861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710333013074318, "dur":6061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710333013080583, "dur":6298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1710333013086918, "dur":474562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1710333013028328, "dur":1690, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1710333013030018, "dur":5301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1710333013035338, "dur":246, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":17, "ts":1710333013035322, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1710333013035586, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1710333013040427, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1710333013041997, "dur":5262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":17, "ts":1710333013047427, "dur":7277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1710333013054777, "dur":6705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1710333013061564, "dur":6175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1710333013067792, "dur":6898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1710333013074830, "dur":6143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1710333013081034, "dur":5842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":17, "ts":1710333013086890, "dur":474636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1710333013028409, "dur":1623, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1710333013030032, "dur":5416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1710333013035449, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":18, "ts":1710333013042847, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":18, "ts":1710333013047351, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":18, "ts":1710333013047349, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/Oracle_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":18, "ts":1710333013047510, "dur":7892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":18, "ts":1710333013055474, "dur":7251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1710333013062776, "dur":6252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1710333013069081, "dur":6441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1710333013075603, "dur":5605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1710333013081427, "dur":479918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1710333013028467, "dur":1575, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1710333013030042, "dur":5269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1710333013035331, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1710333013035313, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1710333013035406, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1710333013038491, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1710333013041650, "dur":13315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":19, "ts":1710333013055119, "dur":7253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1710333013062438, "dur":6337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1710333013068829, "dur":6191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1710333013075068, "dur":5516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1710333013080645, "dur":6225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/level1.resS" }}
+,{ "pid":12345, "tid":19, "ts":1710333013086885, "dur":474620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1710333013028768, "dur":1284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1710333013030053, "dur":5255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1710333013035327, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":20, "ts":1710333013035310, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game_Oracle(exe)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":20, "ts":1710333013035552, "dur":100, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1710333013039699, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":20, "ts":1710333013042141, "dur":6374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":20, "ts":1710333013048568, "dur":6440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":20, "ts":1710333013055078, "dur":7760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1710333013062901, "dur":6442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1710333013069390, "dur":6121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1710333013075581, "dur":5328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1710333013080979, "dur":8275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game_Oracle(exe)/Oracle_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":20, "ts":1710333013089272, "dur":472088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710333013567171, "dur":1520, "ph":"X", "name": "ProfilerWriteOutput" }
+,
